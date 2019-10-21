@@ -9,6 +9,7 @@ public class RoomReservation {
     private String roomNumber;
     private String firstName;
     private String lastName;
+    private Date date;
 
     public long getRoomId() {
         return roomId;
@@ -65,7 +66,4 @@ public class RoomReservation {
     public void setDate(Date date) {
         this.date = date;
     }
-
-    private Date date;
 }
-
